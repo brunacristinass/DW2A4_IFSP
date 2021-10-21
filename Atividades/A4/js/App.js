@@ -8,7 +8,7 @@ const masks = {
       .replace(/(-\d{2})\d+?$/, '$1')
   },
 
-  dataNascimento(value) {
+  dataNasc(value) {
     return value
       .replace(/\D/g, "")
       .replace(/(\d{2})(\d)/, "$1/$2")
